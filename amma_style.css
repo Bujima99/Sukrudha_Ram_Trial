@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-image:url('img/international head 1.png');
+    background-image:url('international head 1.png');
     background-repeat: no-repeat;
     background-size:cover;
    flex: 1;
