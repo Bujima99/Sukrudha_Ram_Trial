@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
         
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -12,16 +12,358 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<link rel="stylesheet" href="amma_style.css">
+.header {
+    background-image:url('img/international head 1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+   flex: 1;
+	height: 100%;
+	display: flex;
+	
+    
+}
+.header .form-container{
+    width:50%;
+    
+    padding:5px;
+    left:40%;
+    
+}
+.header .row > h2{
+	color:#AF0C3E;
+}
+.login_form{
+	background-color: #AF0C3E;
+	border:1px solid;
+        border-radius: 20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+        
+}
+.header form{
+	padding: 0 2em;
+}
+.header .form-control{
+	width: 100%;
+	border:1px solid transparent;
+	border-radius: 4px;
+	border-bottom: 1px solid #aaa;
+	outline:none;
+	margin:.75em auto;
+	transition: all .5s ease;
+}
+.header .form-control:focus{
+	border-bottom-color: #AF0C3E;
+	box-shadow: 0 0 5px #AF0C3E; 
+	border-radius: 4px;
+}
+.header .btn{
+	transition: all .5s ease;
+	width: 70%;
+	border-radius: 30px;
+	color:#AF0C3E;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #AF0C3E;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.header .btn:hover, .btn:focus{
+	background-color: #AF0C3E;
+	color:#fff;
+}
 
+
+#navbar {
+  
+  background-color: black !important;
+  overflow:hidden;
+ width:100%;
+  background-color: #ddd;
+  z-index:1;
+  top:0px;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.visible {
+  opacity: 1;
+}
+
+
+
+section {
+  width: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 100%;
+  text-align: center;
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+
+.nav-container ul li {
+  list-style: none;
+  display:block;
+  margin: 0 10px;
+}
+.nav-container ul li a {
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  transition:all 0.3s ease;
+  
+  font-size:17px;
+}
+.nav-container ul li a:hover {
+    background-color: #ddd;
+  color: #AF0C3E;
+  border-bottom: 3px solid #AF0C3E;
+}
+
+
+
+ #s1 .row h2{
+                color:#AF0C3E;
+                font-weight: bolder;
+                
+            }
+            #s1 .row{
+                text-align: left;
+                padding: 50px;
+                padding-left: 70px;
+                padding-right: 70px;
+                padding-bottom: 50px;
+                font-size: 25px;
+                position:relative;
+            }
+        
+            #s1 .img1{
+                position: absolute;
+                top:25%;
+                left:65%;
+                width:30%;
+                height:auto;
+                padding-left: 50px;             
+            }
+            
+            #s1 .p2{
+                text-align: left;
+                padding: 50px;
+                padding-left: 70px;
+                padding-right: 70px;
+                padding-bottom: 50px;
+                font-size: 25px;
+                position:relative;
+                left:60%;
+                
+            }
+            
+            #s1 .img2{
+                position: absolute;
+                top:0;
+                left:0;
+                width:40%;
+                height:auto;
+                padding-left: 50px;   
+            }
+            
+            #s1 .img3{
+                position: absolute;
+                top:90%;
+                left:70%;
+                width:70%;
+                height:auto;
+                padding-left: 50px; 
+
+            }
+            
+            
+            #s1 a:hover{
+               opacity: 0.5;
+            }
+            
+            
+         #s2{
+                padding: 8px;
+                padding-left: 80px;
+            }
+            #s2 h1{
+                font-weight: bolder;
+                text-align: left;
+                color: #AF0C3E;
+            }
+
+	#s2 a{
+		text-decoration: none;
+	}
+	#s2 a:hover{
+		color:#AF0C3E;
+		text-decoration: none;
+	}
+        
+        #s2 .tab{
+            text-align: left;
+            width:100%;
+        }
+
+	
+    #s2 .borderless td, .borderless th
+    {
+    border: none;
+        }
+
+	.btn{
+            
+	transition: all .5s ease;
+	width: 50%;
+	border-radius: 30px;
+	color:#AF0C3E;
+	font-weight: bolder;
+	background-color: #fff;
+	border: 1px solid #AF0C3E;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+        
+        }
+        
+        #s2 .btn:hover, .btn:focus
+        {
+	background-color: #AF0C3E;
+	color:#fff;
+        }
+
+        #s5 .bck{
+             background-color:#AF0C3E;
+             padding: 60px;
+        }
+        
+ #s5 .row {
+        position:relative;       
+        color:white;
+        font-size: 30px;
+        text-align: left;
+       
+        
+    }
+    
+
+    #s5 .row  h2{
+        font-weight: bolder;
+         font-size: 40px;
+    }
+    
+    #s5 .img4{
+               
+                position: absolute;
+                top:0%;
+                left:60%;
+                width:40%;
+                height:auto;
+                 
+            }
+   
+    #s5 .zoom:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+    }
+    
+    
+    .counters {
+        margin-top:450px;
+	color: #fff;
+	padding: 40px 20px;
+	
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.counters i {
+	
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 5px 0;
+  color:#FFD92A;
+}
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  transition: all .5s ease;
+	width: 20%;
+        font-size:20px;
+        padding:10px;
+	border-radius: 30px;
+	color:#fff;
+	font-weight: 600;
+	background-color: #AF0C3E;
+	border: 1px solid #fff;
+	margin-top: 10px;
+	margin-bottom: 1em;
+        margin-left: 250px;
+       
+        
+}
+
+.open-button:hover, .btn:focus{
+    background-color: #fff;
+	color:#AF0C3E;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  
+  z-index: 9;
+}
+.form-container {
+  max-width: 600px;
+  padding: 5px;
+  background-color: white;
+  border-color: #AF0C3E;
+  margin-top:0px;
+}
+
+</style>
 </head>
 <body>
 
 
 <div class="header">
     
-    <div class="row col-xd-12 col-md-4" style="margin-left:-100px;margin-top:450px;">
+    <div class="row col-sm-6 col-md-8 col-xl-12" >
     <div class="counters">
 		
 	<div class="container" >
@@ -64,7 +406,7 @@
     <div class="row">
     		 
                 <div class="form-popup" id="myForm">
-            <div class="col-md-8 col-xs-12 col-sm-12 login_form  form-container" style="width:50%;padding:5px" >
+            <div class="col-sm-6 col-md-8 col-xl-12 login_form  form-container">
 				<div class="container-fluid" style="margin-left:10px">
 					<div class="row">
 						<h2>ENQUIRE <br>NOW</h2>
@@ -98,14 +440,13 @@
         </div>
                     
                 </div>
-		
-	
+			
     </div>
   
 </div>
    
 <nav>
-<div class="nav-container col-12" id="navbar">
+<div class="nav-container col-sm-6 col-md-8 col-xl-12" id="navbar">
     <ul>
       <li><a id="s1"  href="#home">HOME</a></li>
       <li><a id="s2" href="#about">ABOUT</a></li>
@@ -121,29 +462,26 @@
 
 <section id="home" class="home">
 <div id="s1">
-            <div class="row">
-                <div class="col-xs-6">
-                     <h2 style="font-weight:bolder;">LIPSUM GENERATOR</h2>
+            <div class="row" class="col-sm-6 col-md-8 col-xl-12">
+                <div class="col-sm-6 col-md-8 col-xl-12">
+                    <h2>LIPSUM GENERATOR</h2><br>
                       <p>The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
                       </p>
                 </div>
-                <div class="parent col-xs-6">
-                    <img  class="img1" src="Rectangle 6.png" style="position:relative;width:100%" alt="" >
-                        <a href="">
-                        <img class="img2" src="play.svg" style="width:90px;margin-left:130px;margin-top: 80px;position:absolute" alt="video1" class="img-fluid">
-                        </a>
-                </div>
+                     <a href="">
+                    <img class="img-fluid img1" src="img/Rectangle 6.png" alt="" >
+                    </a>
             </div>
-            <div class="row">
-                <div class="col-xs-4" >
-                
-                <img  class="img-fluid" src="beautiful-young-muslim-woman-posing-with-her-phone 1.png" style="width:100%;height:auto;margin-left:100px;margin-top:-50px ;" alt="beautiful-young-muslim-woman-posing-with-her-phone 1" class="img-fluid">
-                </div>
-               <div class="parent col-xs-8">
-                     <h2 style="font-weight:bolder;">LIPSUM GENERATOR</h2>
-                      <p>The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
+            <div class="row" class="col-sm-6 col-md-8 col-xl-12">               
+                <img  class="img-fluid img2" src="img/beautiful-young-muslim-woman-posing-with-her-phone 1.png"  alt="beautiful-young-muslim-woman-posing-with-her-phone 1">
+              
+               <div class="col-sm-6 col-md-8 col-xl-12">
+                   <div class="p2">
+                   <h2>LIPSUM GENERATOR</h2><br>
+                      <p >The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
                       </p>
-                      <img  class="img-fluid" src="Group 1.png" style="width:70%;height:auto;margin-left:50px;margin-top:100px ;" alt="Group 1" class="img-fluid">
+                    </div>
+                      <img  class="img-fluid img3" src="img/Group 1.png"  alt="Group 1" >
                 </div>
                 
             
@@ -153,13 +491,13 @@
 </section>
     
 <section id="about" >
-<div id="s2">
+<div id="s2" >
     
-            <div class="col-xs-12 col-md-8">
-                <h1 style="margin-left:-700px;font-weight: bolder;font-size: 50px;pading:20px;"> WHATS YOUR <br>INTEREST?</h1><br><br>
+            <div class="col-sm-6 col-md-8 col-xl-12">
+                <h1> WHATS YOUR <br>INTEREST?</h1><br><br>
             </div>
             
-            <div class="row" style="text-align:left;">
+            <div class="table-responsive col-sm-6 col-md-8 col-xl-12 tab">
 		<ul>
 		<table border="0" class="table borderless ">
 		<tr>
@@ -202,15 +540,15 @@
                </div>
 
 	<div class="row ">
-		<div class="col-md-4">
+		<div class="col-sm-6 col-md-8 col-xl-12">
               <input type="submit" value="SEARCH FOR PROGRAMS" onClick="" class="btn"> 
 		
 		</div>
 		<div class="col-md-1">
 		<h2>OR</h2>
-		</div>
+                </div>
 		<div class="col-md-2">
-		<a href="" class="zoom"><h3 style="color:#AF0C3E;">APPLY NOW</h3></a>
+		<a href=""><h3>APPLY NOW</h3></a>
 		</div>
 	</div>
             
@@ -231,23 +569,22 @@
 
     <section id="dualdegree">
         <div id="s5">
-    <div class="row" style="background-color:#AF0C3E;background-size:cover;padding: 30px;">
+    <div class="row bck">
             
-             <div class="col-xs-6 paragraph">
-                 <h2>DUAL DEGREE<br> PROGRAMS</h2>
+             <div class="col-sm-6 col-md-8 col-xl-12 ">
+                 <h2>DUAL DEGREE<br> PROGRAMS</h2><br>
                       <p>An exciting opportunity has opened up between Amrita Vishwa Vidyapeetham and KTH – Royal Institute of Technology, Sweden, enabling academically excellent Engineering students to earn a B. Tech and an MS in 5 
 years. ... Selected Amrita students will 
 complete their first three years at Amrita 
 and the next two years at KTH.
                       </p>
-                </div>
-                <div class="parent col-xs-6">
-                    <img  class="img1" src="portrait-happy-young-african-male-student 1.png" style="position:relative;width:120%" alt="" >     
-                </div>
+             </div>        
+                    <img  class="img-fluid img4" src="img/portrait-happy-young-african-male-student 1.png" alt="" >     
+               
    
         </div>    
        <!-- Grid row -->
-<div class="row ">
+<div>
   <!-- Grid column -->
   <div class="col-xs-3">
     <!--Modal: Name-->
@@ -267,7 +604,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v1-hover.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/v1-hover.png" alt="video"
         data-toggle="modal" data-target="#modal1"></a>
   </div>
   <!-- Grid column -->
@@ -290,7 +627,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v2.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/v2.png" alt="video"
         data-toggle="modal" data-target="#modal6"></a>
   </div>
   <!-- Grid column -->
@@ -313,12 +650,12 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/Object.png" alt="video"
         data-toggle="modal" data-target="#modal4"></a>
   </div>
   <!-- Grid column -->
   <!-- Grid column -->
-  <div class="col-xs-3 ">
+  <div class="col-xs-3">
   <!--Modal: Name-->
     <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
@@ -337,7 +674,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object (1).png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/Object (1).png" alt="video"
         data-toggle="modal" data-target="#modal8"></a>
   </div>
   <!-- Grid column -->
@@ -345,7 +682,118 @@ and the next two years at KTH.
 <!-- Grid row -->
 </div>
 </section>
-<script src="amma_script.js"></script>
+<script>
+    
+    
+const counters = document.querySelectorAll('.counter');
+const speed = 2; 
+
+counters.forEach(counter => {
+	const updateCount = () => {
+		const target = +counter.getAttribute('data-target');
+		const count = +counter.innerText;
+		const inc =  speed;
+		// Check if target is reached
+		if (count < target) {
+			counter.innerText = count + inc;
+			setTimeout(updateCount, 1);
+		} else {
+			counter.innerText = target;
+		}
+	};
+
+	updateCount();
+});
+    
+    
+    
+  
+//Enquiry button open-close function
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+    
+//sticky navbar while scolling
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+//Smooth scrolling
+
+$("#s1").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#home").offset().top-65
+     }, 1000);
+  return false;
+ });
+
+$("#s2").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#about").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+$("#s3").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#programs").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+
+$("#s4").click(function() {
+  $(this).addClass("active");
+     $('html, body').animate({
+         scrollTop:        $("#lipsum").offset().top-100
+     }, 1000);
+  return false;
+ });
+ 
+ $("#s5").click(function() {
+  $(this).addClass("active");
+     $('html, body').animate({
+         scrollTop:        $("#dualdegree").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+
+
+
+//youtube video section 5
+ $('#modal1').on('hidden.bs.modal', function (e) {
+  $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});
+
+$('#modal6').on('hidden.bs.modal', function (e) {
+  $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+});
+
+$('#modal4').on('hidden.bs.modal', function (e) {
+  $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+});
+
+$('#modal8').on('hidden.bs.modal', function (e) {
+  $('#modal8 iframe').attr("src", $("#modal8 iframe").attr("src"));
+});
+
+
+
+</script>
 
 </body>
 </html>
