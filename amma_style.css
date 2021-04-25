@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-image:url('international head 1.png');"
+    background-image:url('international head 1.png');
     background-repeat: no-repeat;
     background-size:cover;
    flex: 1;
@@ -256,6 +256,8 @@ section:nth-child(1) {
 }
 
 
+
+/* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   transition: all .5s ease;
 	width: 20%;
@@ -287,9 +289,9 @@ section:nth-child(1) {
   z-index: 9;
 }
 .form-container {
-  max-width: 800px;
+  max-width: 600px;
   padding: 10px;
-  
   background-color: white;
   border-color: #AF0C3E;
+  margin-top:10px;
 }
