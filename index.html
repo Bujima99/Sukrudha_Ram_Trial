@@ -13,6 +13,125 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 <style>
+ @media only screen and (min-width: 300px) {
+     body{
+         font-size:50px;
+         
+     }
+     .header{
+         background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+         background-image:url('img/international head 1.png');
+        
+     }
+  
+     
+     .counters .container {
+         width:min-width;
+         height:auto;
+         padding:5px;
+         left-padding:5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+     .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+     
+     
+section {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 100%;
+  text-align: center;
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+     
+     .counters {
+        margin-top:100px;
+	color: #fff;
+	
+	
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+	text-align: center;
+}
+
+.counters i {
+	
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 5px;
+	margin: 5px 0;
+  color:#FFD92A;
+}
+#s1 .row h2{
+                color:#AF0C3E;
+                font-weight: bolder;
+                font-size: 80%;   
+            }
+
+#s1 .row{
+                text-align: justify;
+                font-size:20px;
+                
+                position:relative;
+            }
+        
+            #s1 .img1{
+                position: absolute;
+                width:100%;
+                height:100%;
+                        
+            }
+            
+            
+            
+	.btn{
+            
+	
+	width: 200%;
+	
+        
+        }
+        
+        #s5 .bck {
+    
+    padding: 20px;
+}
+
+        #s5 .img4{
+               
+                position: absolute;
+                top:20%;
+                left:0%;
+                width:40%;
+                height:auto;
+                 
+            }
+ }
+ 
+    
 body {
   margin: 0;
   font-size: 28px;
@@ -20,7 +139,7 @@ body {
 }
 
 .header {
-    background-image:url('international head 1.png');
+    background-image:url('img/international head 1.png');
     background-repeat: no-repeat;
     background-size:cover;
    flex: 1;
@@ -350,10 +469,10 @@ section:nth-child(1) {
 }
 .form-container {
   max-width: 600px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   border-color: #AF0C3E;
-  margin-top:0px;
+  margin-top:10px;
 }
 
 </style>
@@ -363,7 +482,7 @@ section:nth-child(1) {
 
 <div class="header">
     
-    <div class="row col-md-4 mb-5" >
+    <div class="row col-sm-6 col-md-8 col-xl-12" >
     <div class="counters">
 		
 	<div class="container" >
@@ -406,7 +525,7 @@ section:nth-child(1) {
     <div class="row">
     		 
                 <div class="form-popup" id="myForm">
-            <div class="col-md-4 mb-5 login_form  form-container">
+            <div class="col-sm-6 col-md-8 col-xl-12 login_form  form-container">
 				<div class="container-fluid" style="margin-left:10px">
 					<div class="row">
 						<h2>ENQUIRE <br>NOW</h2>
@@ -446,7 +565,7 @@ section:nth-child(1) {
 </div>
    
 <nav>
-<div class="nav-container col-md-4 mb-5" id="navbar">
+<div class="nav-container col-sm-6 col-md-8 col-xl-12" id="navbar">
     <ul>
       <li><a id="s1"  href="#home">HOME</a></li>
       <li><a id="s2" href="#about">ABOUT</a></li>
@@ -462,18 +581,18 @@ section:nth-child(1) {
 
 <section id="home" class="home">
 <div id="s1">
-            <div class="row" class="col-md-4 mb-5">
-                <div class="col-md-4 mb-5">
+            <div class="row" class="col-sm-6 col-md-8 col-xl-12">
+                <div class="col-sm-6 col-md-8 col-xl-12">
                     <h2>LIPSUM GENERATOR</h2><br>
                       <p>The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
                       </p>
                 </div>
                      <a href="">
-                    <img class="img-fluid img1" src="Rectangle 6.png" alt="" >
+                    <img class="img-fluid img1" src="img/Rectangle 6.png" alt="" >
                     </a>
             </div>
-            <div class="row" class="col-sm-6 col-md-10 col-xl-12">               
-                <img  class="img-fluid img2" src="beautiful-young-muslim-woman-posing-with-her-phone 1.png"  alt="beautiful-young-muslim-woman-posing-with-her-phone 1">
+            <div class="row" class="col-sm-6 col-md-8 col-xl-12">               
+                <img  class="img-fluid img2" src="img/beautiful-young-muslim-woman-posing-with-her-phone 1.png"  alt="beautiful-young-muslim-woman-posing-with-her-phone 1">
               
                <div class="col-sm-6 col-md-8 col-xl-12">
                    <div class="p2">
@@ -481,7 +600,7 @@ section:nth-child(1) {
                       <p >The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
                       </p>
                     </div>
-                      <img  class="img-fluid img3" src="Group 1.png"  alt="Group 1" >
+                      <img  class="img-fluid img3" src="img/Group 1.png"  alt="Group 1" >
                 </div>
                 
             
@@ -579,7 +698,7 @@ complete their first three years at Amrita
 and the next two years at KTH.
                       </p>
              </div>        
-                    <img  class="img-fluid img4" src="portrait-happy-young-african-male-student 1.png" alt="" >     
+                    <img  class="img-fluid img4" src="img/portrait-happy-young-african-male-student 1.png" alt="" >     
                
    
         </div>    
@@ -604,7 +723,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v1-hover.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/v1-hover.png" alt="video"
         data-toggle="modal" data-target="#modal1"></a>
   </div>
   <!-- Grid column -->
@@ -627,7 +746,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v2.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/v2.png" alt="video"
         data-toggle="modal" data-target="#modal6"></a>
   </div>
   <!-- Grid column -->
@@ -650,7 +769,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object.png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/Object.png" alt="video"
         data-toggle="modal" data-target="#modal4"></a>
   </div>
   <!-- Grid column -->
@@ -674,7 +793,7 @@ and the next two years at KTH.
       </div>
     </div>
     <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object (1).png" alt="video"
+    <a><img class="img-fluid z-depth-1 zoom" src="img/Object (1).png" alt="video"
         data-toggle="modal" data-target="#modal8"></a>
   </div>
   <!-- Grid column -->
