@@ -1,4 +1,5 @@
     
+    
 const counters = document.querySelectorAll('.counter');
 const speed = 2; 
 
@@ -104,5 +105,4 @@ $('#modal4').on('hidden.bs.modal', function (e) {
 $('#modal8').on('hidden.bs.modal', function (e) {
   $('#modal8 iframe').attr("src", $("#modal8 iframe").attr("src"));
 });
-
 
