@@ -14,8 +14,684 @@ and open the template in the editor.
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+            
+            html,
+body,
+header,
+#top {
+    height: 100%;
+     
+}
 
-<link rel="stylesheet" href="amma_style.css">
+
+.navbar:not(.top-nav-collapse) {
+            background-color: white;
+            position:relative;
+        }
+        
+ .nav-item{
+            font-weight:bolder;
+ }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#top {
+    background: url('international head 1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:absolute;
+}
+#top h2{
+    color:#AF0C3E;
+}
+#top form{
+	padding: 0 2em;
+}
+
+.login_form{
+        width:75%;
+	background-color: #fff;
+        border-radius: 20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+       padding: 30px;
+       margin-left: 40px;
+       margin-top:30px;
+            
+}
+
+#top .form-control{
+	width: 100%;
+	border:1px solid transparent;
+	border-radius: 4px;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:.90em auto;
+	transition: all .5s ease;
+}
+#top .form-control:focus{
+       
+	border-bottom-color: #AF0C3E;
+	box-shadow: 0 0 5px #AF0C3E; 
+	border-radius: 4px;
+}
+
+#top .btn{
+	transition: all .5s ease;
+	width: 70%;
+	border-radius: 30px;
+	color:#AF0C3E;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #AF0C3E;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+#top .btn:hover, .btn:focus{
+	background-color: #AF0C3E;
+	color:#fff;
+}
+
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	text-align: center;
+        margin-top:600px;
+	color: #fff;
+	padding: 40px 20px;
+        position:relative;
+}
+
+.counters i {
+	
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 25px;
+	margin: 5px 0;
+        color:#FFD92A;
+}
+
+.top-nav-collapse {
+    background-color: white;
+    
+ }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link
+  {
+            color: black;
+        }
+ 
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        
+        #about h2{
+            color:#AF0C3E;
+        }
+        
+        #programs{
+            color:white;
+        }
+        
+        #lipsum h2{
+            color:#AF0C3E;
+        }
+        
+        .texts{
+            text-align: left;
+            padding-top: 120px;
+        }
+        
+        
+        .img2{
+            position:absolute;
+            padding: 15px;
+            margin-left:-10px;
+        }
+        
+        .img3{
+            position: relative;
+            width:25%;
+            margin-left: 40%;
+            padding-top: 80px;
+        }
+        
+        .img3hover:hover{
+            opacity:0.5;
+        }
+        
+        .img4{
+            position: absolute;
+            width:100%;
+            height:50%;
+            margin-top: 450px;
+            padding: -10px;
+        }
+        
+        .inside{
+            padding-top: 100px;
+            margin-left: 10px;
+            position:relative;
+        }
+        
+        .img6{
+            margin-top:-120px;
+        }
+        
+        
+        
+        #lipsum a{
+		text-decoration: none;
+	}
+	#lipsum a:hover{
+		color:#AF0C3E;
+		text-decoration: none;
+	}
+        
+        #lipsum .borderless td, .borderless th
+        {
+            border: none;
+        }
+        
+        .btn{
+            
+	transition: all .5s ease;
+	width: 60%;
+	border-radius: 30px;
+	color:#AF0C3E;
+	font-weight: bolder;
+	background-color: #fff;
+	border: 1px solid #AF0C3E;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+        
+        }
+        
+       .btn:hover, .btn:focus
+        {
+	background-color: #AF0C3E;
+	color:#fff;
+        }
+        
+        .dual{
+            background: url('iamrita_univerty 1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #AF0C3E;
+        }
+        
+        .dual:before{
+            opacity:0.7;
+        }
+        
+        .dualtrans{
+            padding:10px;
+            padding-top: 30px;
+            color:white;
+        }
+        
+        
+        .img7{
+            width:200%;
+            height:120%;
+        }
+        
+
+        .col-md-3{
+           padding-left: -20px;
+           padding-right:-20px;
+            
+        }
+        
+        .zoom:hover{
+              -ms-transform: scale(1.5); /* IE 9 */
+              -webkit-transform: scale(1.5); /* Safari 3-8 */
+               transform: scale(1.5); 
+        }
+        
+        .navbar{
+            background-color: white !important;
+            display:block;
+            overflow: hidden;
+        }
+        
+        .navbar a:hover {
+            border-bottom: 5px solid #AF0C3E !important;
+         }
+
+        .ico{
+            font-size:20px;
+        }
+        
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: white;
+    }
+    
+     #top {
+    background: url('international head 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:110%;
+    
+    }
+  }
+
+/* Desktop*/
+  @media (min-width:801px) 
+{
+        .navbar:not(.top-nav-collapse) {
+            background-color: white;
+            position:relative;
+        }
+        
+        .ico{
+            font-size:100px;
+        }
+        
+        body{
+            font-size: 30px;
+        }
+         #top {
+            width:100%;
+         }
+         
+         .login_form{
+        margin-top: 200px;     
+        width:20%;
+        margin-left: 1500px;       
+        }
+        
+        
+    #top .form-control{
+	width: 200%;	
+    }
+    
+    #top .btn{
+	width: 100%;
+    }
+    
+    
+    .counters .container {
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 50px;
+        margin-top:700px;  
+    }
+
+    .counters .counter {
+	font-size: 40px;
+    }
+    
+    
+    .texts{
+        padding-top: 60px;
+        margin-left:-70px;
+        }
+        
+        .texts h2{
+            font-weight:bolder;
+            font-size:60px;
+        }
+        
+        .grey-text{
+            
+            padding-top: 50px;
+            width:200%;
+            margin: -80px;
+            margin-left: 10px;
+            
+        }
+        .img2{
+            margin-top: 200px;
+           width:100%;
+            margin-left:500px;   
+        }
+        
+        .img3{
+            margin-left: 130%;
+            margin-top: 220px;
+        }
+        
+        .img3hover:hover{
+            opacity:0.5;
+        }
+        
+        .img4{
+           
+            width:100%;
+            height:70%;
+            margin-top: 250px;
+            margin-left: -400px;
+            padding: -10px;
+        }
+        
+        .img7{
+            margin-left: -100px;
+            height:100%;
+            width:100%;
+        }
+        
+        .inside{
+           margin-top: 230px;
+            margin-left: 50px;
+        }
+        .inside p{
+            padding-top: 80px;
+        }
+        
+        .img5{
+            width:150%;
+            margin-top:200px;
+        }
+        .img6{
+            margin-top:-180px;
+        }
+        
+        #lipsum .btn{
+	width: 100%;
+        }
+    
+    #lipsum h3{
+        font-size:60px;
+    }
+    
+    #lipsum .btn{
+        height:60%;
+    }
+    
+    #dualdegree
+    {
+        height:1500px;
+    }
+    
+   .dual{
+            height:50%;
+            margin:-450px;
+            margin-top:100px;
+            
+        }
+        
+        .dual:before{
+            opacity:0.7;
+        }
+        
+        .dualtrans{
+            padding:100px;
+            padding-top: 150px;
+            padding-left:100px;
+            color:white;
+        }
+        
+        #dualdegree h2{
+        font-size:60px;
+        }
+        
+        .img8{
+            margin-top: -300px;
+            margin-left:200px;
+            width:200%;
+            height:175%;   
+        }
+        
+         .dualvideo .img-fluid{
+            width:100%;
+            height:auto;
+        }
+        
+       
+         .dualvideo{
+            margin:-450px;
+            margin-top:450px;   
+            padding-right:-100px;
+            padding-left:-100px;
+        }
+        
+
+        .nav-item{
+            padding-right:15px;
+        }
+        
+}
+  
+
+/* Large than Desktop*/
+  @media (min-width:5120px) 
+{
+    .navbar:not(.top-nav-collapse) {
+            background-color: white;
+            position:relative;
+        }
+        .navbar .container{
+            margin-left: 500px;
+          
+        }
+        
+        .nav-item{
+            
+            padding-left: 200px;
+            padding-right:200px;
+        }
+        
+        body{
+            font-size: 90px;
+        }
+        .ico{
+            font-size:180px;
+        }
+                 
+        .login_form{
+        margin-top: 600px;     
+        width:20%;
+        margin-left: 5000px;      
+        border-radius: 100px;
+	border-top:5px solid #ccc;
+	border-right:5px solid #ccc;
+        padding: 80px;    
+        }
+        
+        input,
+    input::-webkit-input-placeholder {
+        font-size: 90px;
+    
+        }
+        
+    #top .form-control{
+	width: 900px;	
+	border:5px solid transparent;
+	border-radius: 8px;
+	border-bottom: 5px solid #aaa;
+	padding: 8em 2em 2em;
+	padding-left: 5em;
+	outline:none;
+	margin:.90em auto;
+	transition: all .5s ease;
+    }
+    
+    #top .form-group{
+        width: 100%;	
+        font-size:90px;
+        height:100%;
+    }
+    #top h2{
+        font-size: 100px;
+        font-weight:bolder;
+    }
+    
+   #top .btn{
+	width: 500%;
+	border-radius: 50px;
+	font-weight: bolder;
+	border: 5px solid #AF0C3E;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    }
+    
+    .counters .container {
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 150px;
+        margin-top:2600px;  
+        margin-left:50px;
+    }
+
+    .counters .counter {
+	font-size: 150px;
+        
+    }
+    
+    .container h5{
+        font-size: 180px;
+    }
+    
+     .texts{
+           
+            padding-top: 60px;
+            margin-left:-2000px;
+        }
+       
+        
+        .texts h2{
+            font-weight:bolder;
+            font-size:150px;
+        }
+        
+        .img1{
+            width:15%;
+        }
+        
+        .img2{
+            width:100%;
+            margin-top: 800px;
+            margin-left:1500px;
+        }
+        
+        .img3{
+            width:25%;
+            margin-left: 2000px;
+            padding-top: 900px;
+        }
+        
+        .img4{
+            width:100%;
+            height:50%;
+            margin-top: 700px;
+            margin-left: -1000px; 
+            margin-right: -900px;
+            padding-right:-100px;
+            
+        }
+        
+        .img7{
+            margin-left: -100px;
+            height:100%;
+            width:100%;
+        }
+        
+        .inside{
+           margin-top: 800px;
+            margin-left: 100px;
+        }
+        
+        .inside p{
+            padding-top: 80px;
+        }
+        
+        .img5{
+            width:150%;
+            margin-top:600px;
+        }
+        
+        .img6{
+            width:100%;
+            margin-top:-580px;
+        }
+        
+        .btn{
+	width: 80%;
+        font-size: 90px;
+	border-radius: 100px;
+	border: 5px solid #AF0C3E;
+	margin-top: 2 em;
+	margin-bottom: 1.5em;
+        
+        }
+       
+        #lipsum{
+            font-size:90px;
+            margin-right:-2000px;
+        }
+        
+        #lipsum h3{
+            margin-top: 200px;
+            font-size:100px;
+        }
+        
+        #lipsum .img1{
+            width:5%;
+        }
+        
+         #dualdegree
+        {
+           height:4500px;
+           font-size:100px;
+        }
+    
+    .dual{
+            height:50%;
+            margin:-2900px;
+            margin-top:100px;
+            
+        }
+        
+        .dualtrans{
+            padding:1000px;
+            padding-top: 500px;
+            padding-left:500px;
+            color:white;
+        }
+        
+        #dualdegree h2{
+        font-size:150px;
+        }
+        
+        .img8{
+            margin-top: -1000px;
+            margin-left:600px;
+            width:200%;
+            height:180%;   
+        }
+        .dualvideo .img-fluid{
+            width:100%;
+            height:auto;
+        }
+        
+         .dualvideo{
+            
+            margin:-2000px;
+            margin-top:2900px;   
+            margin-left:-3000px;
+            margin-right:-3000px;
+        }
+
+}
+  
+        </style>
     </head>
     <body>
         <header>
@@ -52,8 +728,11 @@ and open the template in the editor.
                                 </div>
 				</div>
             
-        </div>          
-          <div class="row counters" >		
+        </div>
+            
+          <div class="row counters" >
+    
+		
 	<div class="container " >
 		<div>
 		<div class="counter">4th</div>
@@ -86,20 +765,32 @@ and open the template in the editor.
 		<h5>Programs</h5>	
 		</div>
 	</div> 
-    </div>        
-            <!--Main Navigation-->    
+
+
+
+
+    </div>
+        
+            <!--Main Navigation-->
+    
              <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-custom fixed-top scrolling-navbar" >
+
             <div class="container">
+
                 <!-- Navbar brand -->
                 <a class="navbar-brand" href="#"><i class="fa fa-home ico" aria-hidden="true" style='color:black;'></i></a>
+
                 <!-- Collapse button -->
                 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
                     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <!-- Collapsible content -->
                 <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
                             <a class="nav-link" href="#about">ABOUT</a>
@@ -116,15 +807,22 @@ and open the template in the editor.
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">FAQ</a>
                         </li>
-                    </ul>                 
-                </div>               
+                    </ul>
+                    <!-- Links -->
+
+                   
+                </div>
+                <!-- Collapsible content -->
+
             </div>
+
         </nav>
         <!--/.Navbar-->
        
 </header>
     
     <!--Main Navigation-->
+
     <!--Main layout-->
     <main class="mt-5">
         <div class="container">
@@ -146,12 +844,12 @@ and open the template in the editor.
                         </a>
                     </div>  
                 <!--Grid row-->
-               </div>              
+               </div>
+               
+
             </section>
             <!--Section: ABOUT-->
-            
             <hr class="my-5">
-            
             <!--Section: PROGRAMS-->
             <section id="programs" class="texts">
                 <img class="img-fluid img4" src="Vector 1.png" alt="vector 1" >
@@ -182,8 +880,10 @@ and open the template in the editor.
 
             <!--Section: LIPSUM-->
             <section id="lipsum" class="texts">
+                <!-- Heading -->
                 <img class="img-fluid img1" src="h-topline.png" alt="htopline" >
                 <h2 class="md-5 font-weight-bold">WHATS YOUR <br>INTERESTS</h2>
+
                 <!--Grid row-->
                 <div class="row d-flex justify-content-center mb-4">
 
@@ -229,19 +929,23 @@ and open the template in the editor.
 		</tr>
 		</ul>
 		</table>
-               </div>                     
+               </div>
+                      
                     </div>
                     <!--Grid column-->
+
                 </div>
                 <!--Grid row-->
                 <div class="row">
+
                     <!--Grid column-->
                      <div class="col-md-3 mb-1">
                             <input type="submit" value="SEARCH FOR PROGRAMS" onClick="" class="btn"> 
                      </div>
                     <div class="col-md-1 mb-1">
                             <h3>OR</h3>
-                    </div>                    
+                    </div>
+                    
                     <div class="col-md-4 mb-1">
                             <a href=""><h3>APPLY NOW</h3></a>
                     </div>
@@ -253,9 +957,9 @@ and open the template in the editor.
 
             <hr class="my-5">
             <br><br><br>
-            
             <!--Section: DUAL DEGREE-->
             <section id="dualdegree">
+
                 <!--Grid row-->
                 <div class="row dual dualtrans">
                  <div class="col-md-3 mb-5">
@@ -265,25 +969,33 @@ and open the template in the editor.
 years. ... Selected Amrita students will 
 complete their first three years at Amrita 
 and the next two years at KTH.
+
                         </p>
-                    </div>                 
+                    </div>   
+                    
+                 
                  <div class="col-md-7 mb-1">
                         <img class="img-fluid img8" src="portrait-happy-young-african-male-student 1.png" alt="portrait-happy-young-african-male-student 1" >
-                  </div>   
+                  </div>
+               
                 </div>       
                  <!--Grid row-->
+                 
                 <!--Grid row-->
                 <div class="row dualvideo">
+
                     <!--Grid column-->
                     <div class="col-lg-3 mb-1">
                        <a><img class="img-fluid zoom img" src="v1-hover.png" alt="video 1"></a>
                     </div>
                     <!--Grid column-->
+
                     <!--Grid column-->
                     <div class="col-lg-3 mb-1">
                         <a><img class="img-fluid zoom img" src="v2.png" alt="video 2"></a>
                     </div>
                     <!--Grid column-->
+
                     <!--Grid column-->
                     <div class="col-lg-3 mb-1">
                          <a><img class="img-fluid zoom img"  src="v3.png" alt="video 3"></a>
@@ -298,9 +1010,21 @@ and the next two years at KTH.
                 <!--Grid row--> 
             </section>
             <!--Section: DUAL DEGREE-->
+
             <hr class="my-5">
+
+           
+
         </div>
     </main>
     <!--Main layout-->
+
+   
+    
+    
+    <script>
+ 
+   
+    </script>
     </body>
 </html>
