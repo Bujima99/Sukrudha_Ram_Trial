@@ -1,74 +1,29 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-    
-        
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
-
-<link rel="stylesheet" href="amma_style.css">
-
-</head>
-<body>
-
-
-<div class="header">
-    
-    <div class="row col-sm-6 col-md-8 col-xl-12" >
-    <div class="counters">
-		
-	<div class="container" >
-		<div>
-		<div class="counter" data-target="4">0</div>
-		<h4>Best University in India</h4>	
-		</div>
-
-		<div>
-		<div class="counter" data-target="800">0</div>
-      
-		<h4>Ph.D.Faculty</h4>	
-		</div>
-
-		<div>
-                <div class="counter" data-target="200">0</div>
-		<h4>Companies Visit</h4>	
-		</div>
-
-		<div>
-		<div class="counter" data-target="20250">0</div>
-		<h4>Students</h4>	
-		</div>
-
-		<div>
-		<div class="counter" data-target="16.5">0</div>
-		<h4>Highest CTC/Salary</h4>	
-		</div>
-
-		<div>
-		<div class="counter" data-target="207">0</div>
-		<h4>Programs</h4>	
-		</div>
-	</div> 
-
-
-</div>
-
-    </div>
-    <div class="row">
-    		 
-                <div class="form-popup" id="myForm">
-            <div class="col-sm-6 col-md-8 col-xl-12 login_form  form-container">
-				<div class="container-fluid" style="margin-left:10px">
-					<div class="row">
-						<h2>ENQUIRE <br>NOW</h2>
+<link rel="stylesheet" href="amma_css.css">
+    </head>
+    <body>
+        <header>
+        <div id="top">
+            <div class="container-fluid ">
+                <div class="login_form">
+					<div class="row ">
+						<h2>ENQUIRE NOW</h2>
 					</div>
 					<div class="row">
 						<form class="form-group">
@@ -88,75 +43,153 @@
 							
 							<div class="row">
 								<input type="submit" value="Submit" class="btn">
-                                                                <input type="submit" value="Close" class="btn" onclick="closeForm()">
 							</div>
 						</form>
 					</div>
 					<div class="row">
-						<p style="color:black;font-size:20px;">Our career advisor will get in touch with you based on the information provided here.</p>
+						<p>Our career advisor will get in touch with you based on the information provided here.</p>
 					</div>
+                                </div>
 				</div>
-        </div>
-                    
-                </div>
-			
-    </div>
-  
-</div>
-   
-<nav>
-<div class="nav-container col-sm-6 col-md-8 col-xl-12" id="navbar">
-    <ul>
-      <li><a id="s1"  href="#home">HOME</a></li>
-      <li><a id="s2" href="#about">ABOUT</a></li>
-      <li><a id="s3" href="#programs">PROGRAMS</a></li>
-      <li><a id="s4" href="#lipsum">LIPSUM</a></li>
-      <li><a id="s5" href="#dualdegree">DUAL DEGREE</a></li>
-      <li><button class="open-button" onclick="openForm()">ENQUIRE NOW</button></li>
-         
-    </ul>
-  </div>
-</nav>
+            
+        </div>          
+          <div class="row counters" >		
+	<div class="container " >
+		<div>
+		<div class="counter">4th</div>
+		<h5>Best University in India</h5>	
+		</div>
 
+		<div>
+		<div class="counter">800+</div>
+      
+		<h5>Ph.D.Faculty</h5>	
+		</div>
 
-<section id="home" class="home">
-<div id="s1">
-            <div class="row" class="col-sm-6 col-md-8 col-xl-12">
-                <div class="col-sm-6 col-md-8 col-xl-12">
-                    <h2>LIPSUM GENERATOR</h2><br>
-                      <p>The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
-                      </p>
-                </div>
-                     <a href="">
-                    <img class="img-fluid img1" src="Rectangle 6.png" alt="Rectangle 6" >
-                    </a>
+		<div>
+                <div class="counter">200+</div>
+		<h5>Companies Visit</h5>	
+		</div>
+
+		<div>
+		<div class="counter">20250+</div>
+		<h5>Students</h5>	
+		</div>
+
+		<div>
+		<div class="counter">16.5</div>
+		<h5>Highest CTC/Salary</h5>	
+		</div>
+
+		<div>
+		<div class="counter">207</div>
+		<h5>Programs</h5>	
+		</div>
+	</div> 
+    </div>        
+            <!--Main Navigation-->    
+             <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top scrolling-navbar" >
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#"><i class="fa fa-home ico" aria-hidden="true" style='color:black;'></i></a>
+                <!-- Collapse button -->
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programs">PROGRAMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lipsum">LIPSUM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dualdegree">DUAL DEGREE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">FAQ</a>
+                        </li>
+                    </ul>                 
+                </div>               
             </div>
-            <div class="row" class="col-sm-6 col-md-8 col-xl-12">               
-                <img  class="img-fluid img2" src="beautiful-young-muslim-woman-posing-with-her-phone 1.png"  alt="beautiful-young-muslim-woman-posing-with-her-phone 1">
-              
-               <div class="col-sm-6 col-md-8 col-xl-12">
-                   <div class="p2">
-                   <h2>LIPSUM GENERATOR</h2><br>
-                      <p >The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
-                      </p>
+        </nav>
+        <!--/.Navbar-->
+       
+</header>
+    
+    <!--Main Navigation-->
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+            
+            <!--Section: ABOUT-->
+            <section id="about" class="texts">
+                <!--Grid row-->
+                <div class="row">
+                 <div class="col-md-4 mb-5">
+                        <img class="img-fluid img1" src="h-topline.png" alt="htopline" >
+                        <h2 class="mb-5 font-weight-bold">LIPSUM GENERATOR</h2>
+                        <p class="grey-text">The Amrita School of Ayurveda pursues a unique path in blending ancient philosophies and science of health by nurturing a better breed of Ayurvedic physicians, professionally world class and mentally equipped to meet the challenges of the modern world. Amrita School of Ayurveda, Amritapuri was established in the year 2004 and managed by Mata Amritanandamayi Math Trust. The college has developed into a prestigious centre for education in Ayurveda, nationally as well as internationally, under the gracious guidance of its founder and spiritual guru, Mata Amritanandamayi Devi
+                        </p>
+                    </div>   
+                 <div class="col-md-6 mb-5">
+                        <img class="img-fluid img2" src="Rectangle 6.png" alt="Rectangle 6" >
+                         <a href="" class="img3hover">
+                            <img class="img-fluid img3" src="play.svg" alt="play" >
+                        </a>
+                    </div>  
+                <!--Grid row-->
+               </div>              
+            </section>
+            <!--Section: ABOUT-->
+            
+            <hr class="my-5">
+            
+            <!--Section: PROGRAMS-->
+            <section id="programs" class="texts">
+                <img class="img-fluid img4" src="Vector 1.png" alt="vector 1" >
+                <div class="row">
+                 <!--Grid column-->
+                    <div class="col-md-5 mb-1">
+                        <img class="img-fluid img7" src="beautiful-young-muslim-woman-posing-with-her-phone 1.png" alt="beautiful-young-muslim-woman-posing-with-her-phone 1" >
                     </div>
-                      <img  class="img-fluid img3" src="Group 1.png"  alt="Group 1" >
+                    <!--Grid column-->
+                   <!--Grid column-->
+                    <div class="col-md-6 mb-1">
+                        <div class="inside">
+                        <img class="img-fluid img1" src="h-topline.png" alt="htopline" >
+                        <h2 class="md-5 font-weight-bold">LIPSUM GENERATOR</h2>
+                        <p class="grey-text">Amrita is spread across six campuses in three states of India. The institution is managed by the Mata Amritanandamayi Math.
+                        </p>
+                        <img class="img-fluid img5" src="Rectangle 12.png" alt="Rectangle 12" >
+                        <img class="img-fluid img6" src="Group 1.png" alt="group 1" >               
+                        </div>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                
-            
-                    
-                </div>
-            </div>
-</section>
-    
-<section id="about" >
-<div id="s2" >
-    
-            <div class="col-sm-6 col-md-8 col-xl-12">
-                <h1> WHATS YOUR <br>INTEREST?</h1><br><br>
-            </div>
-            
-            <div class="table-responsive col-sm-6 col-md-8 col-xl-12 tab">
+                <!--Grid row-->
+            </section>
+            <!--Section: PROGRAMS-->
+
+            <hr class="my-5">
+
+            <!--Section: LIPSUM-->
+            <section id="lipsum" class="texts">
+                <img class="img-fluid img1" src="h-topline.png" alt="htopline" >
+                <h2 class="md-5 font-weight-bold">WHATS YOUR <br>INTERESTS</h2>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                            <div class="table-responsive ">
 		<ul>
 		<table border="0" class="table borderless ">
 		<tr>
@@ -196,154 +229,78 @@
 		</tr>
 		</ul>
 		</table>
-               </div>
-
-	<div class="row ">
-		<div class="col-sm-6 col-md-8 col-xl-12">
-              <input type="submit" value="SEARCH FOR PROGRAMS" onClick="" class="btn"> 
-		
-		</div>
-		<div class="col-md-1">
-		<h2>OR</h2>
+               </div>                     
+                    </div>
+                    <!--Grid column-->
                 </div>
-		<div class="col-md-2">
-		<a href=""><h3>APPLY NOW</h3></a>
-		</div>
-	</div>
-            
-            
-</div>
-</section>
-<section id="programs"><h1>PROGRAMS</h1>
-<div id="s3">
-    
-</div>
-</section>
-    
-<section id="lipsum"><h1>LIPSUM</h1>
-<div id="s4">
-    
-</div>
-</section>
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                     <div class="col-md-3 mb-1">
+                            <input type="submit" value="SEARCH FOR PROGRAMS" onClick="" class="btn"> 
+                     </div>
+                    <div class="col-md-1 mb-1">
+                            <h3>OR</h3>
+                    </div>                    
+                    <div class="col-md-4 mb-1">
+                            <a href=""><h3>APPLY NOW</h3></a>
+                    </div>
+                    <!--Grid column-->
+             </div>
+                <!--Grid row-->
+            </section>
+            <!--Section: LIPSUM-->
 
-    <section id="dualdegree">
-        <div id="s5">
-    <div class="row bck">
+            <hr class="my-5">
+            <br><br><br>
             
-             <div class="col-sm-6 col-md-8 col-xl-12 ">
-                 <h2>DUAL DEGREE<br> PROGRAMS</h2><br>
-                      <p>An exciting opportunity has opened up between Amrita Vishwa Vidyapeetham and KTH – Royal Institute of Technology, Sweden, enabling academically excellent Engineering students to earn a B. Tech and an MS in 5 
+            <!--Section: DUAL DEGREE-->
+            <section id="dualdegree">
+                <!--Grid row-->
+                <div class="row dual dualtrans">
+                 <div class="col-md-3 mb-5">
+                        <img class="img-fluid img1" src="h-topline.png" alt="htopline" >
+                        <h2 class="mb-5 font-weight-bold">DUAL DEGREE <br>PROGRAMS</h2>
+                        <p class="grey-text">An exciting opportunity has opened up between Amrita Vishwa Vidyapeetham and KTH – Royal Institute of Technology, Sweden, enabling academically excellent Engineering students to earn a B. Tech and an MS in 5 
 years. ... Selected Amrita students will 
 complete their first three years at Amrita 
 and the next two years at KTH.
-                      </p>
-             </div>        
-                    <img  class="img-fluid img4" src="portrait-happy-young-african-male-student 1.png" alt="dualdegree" >     
-               
-   
-        </div>    
-       <!-- Grid row -->
-<div>
-  <!-- Grid column -->
-  <div class="col-xs-3">
-    <!--Modal: Name-->
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-          <!--Content-->
-        <div class="modal-content">
-          <!--Body-->
-          <div class="modal-body mb-0 p-0">
-            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://youtube.com/embed/GJBtsdsEuvU"
-                allowfullscreen></iframe>
-            </div>
-          </div>     
+                        </p>
+                    </div>                 
+                 <div class="col-md-7 mb-1">
+                        <img class="img-fluid img8" src="portrait-happy-young-african-male-student 1.png" alt="portrait-happy-young-african-male-student 1" >
+                  </div>   
+                </div>       
+                 <!--Grid row-->
+                <!--Grid row-->
+                <div class="row dualvideo">
+                    <!--Grid column-->
+                    <div class="col-lg-3 mb-1">
+                       <a><img class="img-fluid zoom img" src="v1-hover.png" alt="video 1"></a>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 mb-1">
+                        <a><img class="img-fluid zoom img" src="v2.png" alt="video 2"></a>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 mb-1">
+                         <a><img class="img-fluid zoom img"  src="v3.png" alt="video 3"></a>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 mb-1">
+                    <a><img class="img-fluid zoom img" src="v4.png" alt="video 4"></a>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row--> 
+            </section>
+            <!--Section: DUAL DEGREE-->
+            <hr class="my-5">
         </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v1-hover.png" alt="video"
-        data-toggle="modal" data-target="#modal1"></a>
-  </div>
-  <!-- Grid column -->
-  <!-- Grid column -->
-  <div class="col-xs-3">
-    <!--Modal: Name-->
-    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Body-->
-          <div class="modal-body mb-0 p-0">
-            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://youtube.com/embed//q7Xv8Zqz9p0"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="v2.png" alt="video"
-        data-toggle="modal" data-target="#modal6"></a>
-  </div>
-  <!-- Grid column -->
-  <!-- Grid column -->
-  <div class="col-xs-3">
-    <!--Modal: Name-->
-    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Body-->
-          <div class="modal-body mb-0 p-0">
-            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://youtube.com/embed//m2da7E-oaqc"
-                allowfullscreen></iframe>
-            </div>
-          </div>          
-       </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object.png" alt="video"
-        data-toggle="modal" data-target="#modal4"></a>
-  </div>
-  <!-- Grid column -->
-  <!-- Grid column -->
-  <div class="col-xs-3">
-  <!--Modal: Name-->
-    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Body-->
-          <div class="modal-body mb-0 p-0">
-           <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://youtube.com/embed//MlagMNOPkQU"
-                allowfullscreen></iframe>
-            </div>
-
-          </div>
-        </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!--Modal: Name-->
-    <a><img class="img-fluid z-depth-1 zoom" src="Object (1).png" alt="video"
-        data-toggle="modal" data-target="#modal8"></a>
-  </div>
-  <!-- Grid column -->
-  </div>
-<!-- Grid row -->
-</div>
-</section>
-
-
-<script src="amma_script.js"></script>
-
-</body>
+    </main>
+    <!--Main layout-->
+    </body>
 </html>
