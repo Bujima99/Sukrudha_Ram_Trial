@@ -24,7 +24,7 @@ header,
 }
 
 #top {
-    background: url('img/international head 1.png');
+    background: url('international head 1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -213,7 +213,7 @@ header,
         }
         
         .dual{
-            background: url('img/amrita_univerty 1.png');
+            background: url('amrita_univerty 1.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -269,7 +269,7 @@ header,
     }
     
      #top {
-    background: url('img/international head 1.png');
+    background: url('international head 1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
