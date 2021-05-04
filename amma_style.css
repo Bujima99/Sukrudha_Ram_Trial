@@ -595,8 +595,8 @@ header,
         
         .img3{
             width:25%;
-            margin-left: 2500px;
-            padding-top: 900px;
+            margin-left: 1000px;
+            padding-top: 100px;
         }
         
         .img4{
@@ -654,7 +654,7 @@ header,
         }
        
         #lipsum{
-            font-size:90px;
+            font-size:50px;
             margin-right:-2000px;
         }
         #lipsum h2{
