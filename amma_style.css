@@ -557,7 +557,7 @@ header,
     .counters .container {
 	grid-template-columns: repeat(7, 1fr);
 	grid-gap: 150px;
-        margin-top:1100px;  
+        margin-top:1000px;  
         margin-left:50px;
     }
 
@@ -628,6 +628,7 @@ header,
         
         .table{
             margin-top:-100px;
+		 font-size:40px;
         }
         
         .img5{
