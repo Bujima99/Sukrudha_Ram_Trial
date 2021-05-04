@@ -7,6 +7,20 @@ header,
      
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar{
+    background-color: white !important;
+    overflow:hidden;
+    display:block;
+  background-color: white;
+  z-index:1;
+  top:0px;
+}
 
 .navbar:not(.top-nav-collapse) {
             background-color: white;
@@ -464,6 +478,10 @@ header,
             position:relative;
         }
         
+	        #navbar{
+    margin-top:-200px;
+}
+	
         .navbar .container{
             margin-left: 500px;
           
