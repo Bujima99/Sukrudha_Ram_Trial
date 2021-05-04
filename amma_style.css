@@ -473,7 +473,7 @@ header,
   
 
 /* Large than Desktop*/
-  @media (min-width:5120px) 
+  @media (min-width:2560px) 
 {
     .navbar:not(.top-nav-collapse) {
             background-color: white;
@@ -481,41 +481,41 @@ header,
             position:relative;
         }
         
-	        #navbar{
-    margin-top:-200px;
-}
-	
         .navbar .container{
             margin-left: 500px;
           
         }
         
+        #navbar{
+    margin-top:-450px;
+}
+        
         .nav-item{
             
-            padding-left: 200px;
-            padding-right:200px;
+            padding-left: 50px;
+            padding-right:50px;
         }
         
         body{
-            font-size: 90px;
+            font-size: 40px;
         }
         .ico{
-            font-size:180px;
+            font-size:80px;
         }
                  
         .login_form{
-        margin-top: 600px;     
-        width:20%;
-        margin-left: 5000px;      
+        margin-top: 100px;     
+        width:25%;
+        margin-left: 1700px;      
         border-radius: 100px;
-	border-top:5px solid #ccc;
-	border-right:5px solid #ccc;
-        padding: 80px;    
+	border-top:3px solid #ccc;
+	border-right:3px solid #ccc;
+        padding: 50px;    
         }
         
         input,
     input::-webkit-input-placeholder {
-        font-size: 90px;
+        font-size: 30px;
     
         }
         
@@ -524,25 +524,29 @@ header,
 	border:5px solid transparent;
 	border-radius: 8px;
 	border-bottom: 5px solid #aaa;
-	padding: 8em 2em 2em;
+	padding: 4em 2em 2em;
 	padding-left: 5em;
 	outline:none;
-	margin:.90em auto;
+	margin:.05em auto;
 	transition: all .5s ease;
     }
     
     #top .form-group{
         width: 100%;	
-        font-size:90px;
+        font-size:30px;
         height:100%;
     }
     #top h2{
-        font-size: 100px;
+        font-size: 40px;
         font-weight:bolder;
+    }
+    #top p{
+        font-size: 30px;
     }
     
    #top .btn{
-	width: 500%;
+	width: 100%;
+        font-size: 40px;
 	border-radius: 50px;
 	font-weight: bolder;
 	border: 5px solid #AF0C3E;
@@ -553,28 +557,28 @@ header,
     .counters .container {
 	grid-template-columns: repeat(7, 1fr);
 	grid-gap: 150px;
-        margin-top:2600px;  
+        margin-top:1100px;  
         margin-left:50px;
     }
 
     .counters .counter {
-	font-size: 150px;
+	font-size:50px;
         
     }
     
     .container h5{
-        font-size: 180px;
+        font-size: 50px;
     }
     
      .texts{
-            padding-top: 500px;
-            margin-left:-2000px;
+            padding-top: 200px;
+            margin-left:-500px;
         }
        
         
         .texts h2{
             font-weight:bolder;
-            font-size:150px;
+            font-size:50px;
         }
         
         .img1{
@@ -583,9 +587,9 @@ header,
         
         .img2{
             max-width:500%;
-            width:150%;
-            margin-top: 600px;
-            margin-left:1500px;
+            width:100%;
+            margin-top: 50px;
+            margin-left:700px;
             
         }
         
@@ -598,21 +602,23 @@ header,
         .img4{
             width:100%;
             height:50%;
-            margin-top: 600px;
-            margin-left: -800px; 
-            margin-right: -250px;
+            margin-top:-100px;
+            margin-left: -220px; 
+            margin-right: -550px;
             padding-right:-100px;
             
         }
         
         .img7{
+            max-width:200%;
+            margin-top: -600px;
             margin-left: -100px;
-            height:100%;
-            width:100%;
+            height:160%;
+            width:150%;
         }
         
         .inside{
-           margin-top: 800px;
+           margin-top: -100px;
             margin-left: 100px;
         }
         
@@ -621,24 +627,24 @@ header,
         }
         
         .table{
-            margin-top:100px;
+            margin-top:-100px;
         }
         
         .img5{
             max-width:600%;
             width:200%;
-            margin-top:600px;
+            margin-top:200px;
         }
         
         .img6{
             max-width:500%;
             width:200%;
-            margin-top:-880px;
+            margin-top:-500px;
         }
         
         .btn{
 	width: 80%;
-        font-size: 90px;
+        font-size: 50px;
 	border-radius: 100px;
 	border: 5px solid #AF0C3E;
 	margin-top: 2 em;
@@ -650,10 +656,17 @@ header,
             font-size:90px;
             margin-right:-2000px;
         }
+        #lipsum h2{
+            font-size: 70px;
+        }
+        
+        .table{
+            margin-top:100px;
+        }
         
         #lipsum h3{
-            margin-top: 200px;
-            font-size:100px;
+            margin-top: 80px;
+            font-size:90px;
         }
         
         #lipsum .img1{
@@ -662,33 +675,38 @@ header,
         
          #dualdegree
         {
-           height:4500px;
-           font-size:100px;
+           height:1000px;
+           font-size:70px;
         }
     
+        #dualdegree .grey-text{
+            margin:0px;
+            padding:-50px;
+            font-size: 50px;
+        }
+        
     .dual{
-            height:50%;
-            margin:-2900px;
+            height:130%;
+            margin:-800px;
             margin-top:100px;
             
         }
         
         .dualtrans{
-            padding:1000px;
-            padding-top: 500px;
-            padding-left:500px;
+           
+           padding-left:300px;
             color:white;
         }
         
         #dualdegree h2{
-        font-size:150px;
+        font-size:80px;
         }
         
         .img8{
-            margin-top: -1000px;
-            margin-left:600px;
-            width:200%;
-            height:180%;   
+            margin-top: -450px;
+            margin-left:300px;
+            width:100%;
+            height:150%;   
         }
         .dualvideo .img-fluid{
             width:100%;
@@ -698,9 +716,9 @@ header,
          .dualvideo{
             
             margin:-2000px;
-            margin-top:2900px;   
-            margin-left:-3000px;
-            margin-right:-3000px;
+            margin-top:800px;   
+            margin-left:-800px;
+            margin-right:-800px;
         }
 
 }
