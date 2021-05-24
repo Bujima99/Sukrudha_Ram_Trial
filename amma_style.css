@@ -349,7 +349,7 @@ header,
 		  
 		  grid-template-columns: repeat(3, 1fr);
 		  margin-top:600px;
-		  grid-gap: 30px;
+		  grid-gap:30px;
 	  }
 	  
 }
