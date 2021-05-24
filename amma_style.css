@@ -343,11 +343,12 @@ header,
             
         }
         
-  @media (max-width: 768px) {
+  @media (max-width: 801px) {
 	  
 	  .counters .container {
 		  
 		  grid-template-columns: repeat(3, 1fr);
+		  margin-top:calc(-15% + 1vw);
 	  }
 	  
 }
@@ -356,6 +357,7 @@ header,
 @media (min-width: 5120px) {
     .container{
         max-width:4000px;
+	
     }
   
 }
