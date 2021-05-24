@@ -348,8 +348,8 @@ header,
 	  .counters .container {
 		  
 		  grid-template-columns: repeat(3, 1fr);
-		  margin-top:calc(-30% + 1vw);
-		  grid-gap: -30px;
+		  margin-top:600px;
+		  grid-gap: 30px;
 	  }
 	  
 }
