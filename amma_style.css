@@ -346,14 +346,14 @@ header,
   @media (max-width: 801px) {
 	  
 	  #top{
-		height:200%;	  
+		height:300%;	  
 	  }
 	  
 	  .counters .container {
 		  
 		  grid-template-columns: repeat(3, 1fr);
 		  margin-top:60px;
-		 grid-gap:0px;
+		 grid-gap:10px;
 	  }
 	  
 }
