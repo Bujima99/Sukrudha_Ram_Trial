@@ -346,7 +346,11 @@ header,
   @media (max-width: 801px) {
 	  
 	  #top{
-		height:300%;	  
+		 background: url('img/international head 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:110%;	  
 	  }
 	  
 	  .counters .container {
