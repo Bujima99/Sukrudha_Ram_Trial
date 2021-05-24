@@ -358,7 +358,7 @@ header,
 		  
 		  grid-template-columns: repeat(2, 1fr);
 		  margin-top:-180px;
-		  padding:-10px;
+		 size:30%;
 		 grid-gap:10px;
 	  }
 	  
