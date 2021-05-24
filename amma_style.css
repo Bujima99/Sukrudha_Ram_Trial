@@ -72,16 +72,14 @@ header,
 
 .login_form{
         height:91.5%;
-        width:calc(15% + 10vw);
-        
+        width:calc(20% + 10vw);
 	background-color: #fff;
         border-radius: calc(20px + 1vw);
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
         padding: 30px;
         margin-left: calc(65% + 1vw);
-        margin-top:40px;
-        
+        margin-top:30px;
         color: #9E9E9E;
         font-family: Montserrat;
             
@@ -90,7 +88,6 @@ header,
 
 #top .form-control{
 	width: 100%;
-      
 	border:1px solid #9E9E9E;
 	border-radius: 4px;
 	border-bottom: 1px solid #9E9E9E;
@@ -141,7 +138,7 @@ header,
 }
 
 .counters .counter {
-	font-size: calc(20px + 1vw);
+	font-size: calc(10px + 1vw);
 	margin: 5px ;
         color:#FFD92A;
 }
