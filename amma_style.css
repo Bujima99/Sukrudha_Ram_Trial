@@ -25,13 +25,16 @@ header,
             #top{
                 background: url('international head 1.png');
                 display:flex;
-                width: auto;
-                height:auto ;
+                width: calc(100% + 1vw);
+                height:calc(100% + 1vw);
                 background-size: cover;
                 background-position: center;
        
                                
             }
+.container{
+	width:calc(100% + 1vw);
+}
             
             
 #navbar{
