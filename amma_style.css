@@ -345,11 +345,15 @@ header,
         
   @media (max-width: 801px) {
 	  
+	  #top{
+		height:110px;	  
+	  }
+	  
 	  .counters .container {
 		  
 		  grid-template-columns: repeat(3, 1fr);
 		  margin-top:60px;
-		  padding:-10px;
+		 grid-gap:0px;
 	  }
 	  
 }
