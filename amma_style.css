@@ -25,7 +25,7 @@ header,
             #top{
                 background: url('international head 1.png');
                 display:flex;
-                width: 150%;
+                width: auto;
                 height:auto ;
                 background-size: cover;
                 background-position: center;
