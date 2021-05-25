@@ -127,6 +127,7 @@ header,
 	grid-gap: 10px;
 	text-align: center;
         margin-top:calc(-15% + 1vw);
+	margin-left:calc(10px + 1vw);
 	color: #fff;
 	margin-left: calc(-0.5% + 1vw);
         position:relative;
