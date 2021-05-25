@@ -72,14 +72,14 @@ header,
 
 .login_form{
         height:91%;
-        width:calc(20% + 5vw);
+        width:calc(20% + 3vw);
 	background-color: #fff;
         border-radius: calc(20px + 1vw);
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
         padding: 30px;
         margin-left: calc(65% + 1vw);
-        margin-top:20px;
+        margin-top:25px;
         color: #9E9E9E;
         font-family: Montserrat;
             
