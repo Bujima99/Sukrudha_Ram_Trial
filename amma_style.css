@@ -285,7 +285,7 @@ header,
         .dualtrans{
             padding:10px;
             padding-top: 30px;
-		margin-top:80px;
+		margin-top:calc(40px + 5vw);
             color:white;
         }
         
