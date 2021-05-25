@@ -72,7 +72,7 @@ header,
 
 .login_form{
         height:91%;
-        width:calc(20% + 10vw);
+        width:calc(20% + 5vw);
 	background-color: #fff;
         border-radius: calc(20px + 1vw);
 	border-top:1px solid #ccc;
