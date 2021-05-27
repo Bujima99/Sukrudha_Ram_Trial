@@ -289,8 +289,15 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    width:100%;
+    width:150%;
+    margin-left:-30%;
    
+}
+
+.images{
+	width:150%;
+	margin-left:-30%;
+	
 }
 
 .texts {
@@ -441,7 +448,14 @@ button:focus {
    
     .dual_imgs img {
         position: inherit;
+	width:150%;
+	margin-left:-60%;
     }
+	
+    .images{
+    
+    margin-left:-60%;
+}
   
     .about h2 {
         font-size: 35px;
@@ -482,7 +496,14 @@ button:focus {
     }
     .dual_imgs img {
         position: initial;
+	width:150%;
+	margin-left:-50%;
     }
+    .images{
+   
+   margin-left:-60%;
+   padding-left: 50%;
+}
     .texts {
         padding-bottom: 0px;
     }
